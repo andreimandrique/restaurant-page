@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+:root{
+    --main-color: #1f2937;
+    --secondary-clor: #F9FAF8;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: var(--main-color);
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+header > nav{
+    font-size: 1.2rem;
+    padding: 1rem 1.4rem;
+    color: var(--secondary-clor);
+}
+header > nav:hover{
+    cursor: pointer;
+    background-color: hsl(215, 28%, 27%);
+}
+.title{
+    font-family: "Lato", sans-serif;
+    text-align: center;
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+    color: var(--secondary-clor);
+}
+.pic{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    max-height: 60vh;
+    margin: auto;
+}
+.about-text{
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    text-align: center;
+    color: var(--secondary-clor);
+}
