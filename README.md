@@ -5,3 +5,7 @@ In the root folder type
 ```
 npm install
 ```
+then
+```
+npm run build
+```
